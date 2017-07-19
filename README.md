@@ -1,22 +1,11 @@
 docker-tomcat
 =============
-[![](https://images.microbadger.com/badges/version/tredence/java_tomcat.svg)](https://microbadger.com/images/tredence/java_tomcat "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/tr3dence/docker-tomcat.svg)](https://microbadger.com/images/tr3dence/docker-tomcat "Get your own version badge on microbadger.com")
 
-[![](https://images.microbadger.com/badges/image/tredence/java_tomcat.svg)](https://microbadger.com/images/tredence/java_tomcat "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/tr3dence/docker-tomcat.svg)](https://microbadger.com/images/tr3dence/docker-tomcat "Get your own image badge on microbadger.com")
 
-[![dockeri.co](http://dockeri.co/image/tredence/java_tomcat)](https://registry.hub.docker.com/t/tredence/java_tomcat/)
+[![dockeri.co](http://dockeri.co/image/tr3dence/docker-tomcat)](https://registry.hub.docker.com/t/tr3dence/docker-tomcat/)
 
-
-Ubuntu 14.04, Oracle JDK 8 and Tomcat 8 based docker container.
-
-# Description
-You should run this container on the background and mount the volume with your web app inside.
-
-Includes:
-
- - Oracle JDK 1.8.111
- - Tomcat 8.0.39
- -  wget, curl, build-essential, nettools
 
 USAGE
 ----

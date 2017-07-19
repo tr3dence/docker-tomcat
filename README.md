@@ -1,17 +1,17 @@
 docker-tomcat
 =============
-[![](https://images.microbadger.com/badges/version/tr3dence/docker-tomcat.svg)](https://microbadger.com/images/tr3dence/docker-tomcat "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/tredence/docker-tomcat.svg)](https://microbadger.com/images/tredence/docker-tomcat "Get your own version badge on microbadger.com")
 
-[![](https://images.microbadger.com/badges/image/tr3dence/docker-tomcat.svg)](https://microbadger.com/images/tr3dence/docker-tomcat "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/tredence/docker-tomcat.svg)](https://microbadger.com/images/tredence/docker-tomcat "Get your own image badge on microbadger.com")
 
-[![dockeri.co](http://dockeri.co/image/tr3dence/docker-tomcat)](https://registry.hub.docker.com/t/tr3dence/docker-tomcat/)
+[![dockeri.co](http://dockeri.co/image/tredence/docker-tomcat)](https://registry.hub.docker.com/t/tredence/docker-tomcat/)
 
 
 USAGE
 ----
 To run the image and bind to port :
 
-docker run -d -p 8080:8080 tredence/java_tomcat
+docker run -d -p 8080:8080 tredence/docker-tomcat
 The first time that you run your container, a new user admin with all privileges
 will be created in Tomcat with a random password. To get the password, check the logs
 of the container by running:
@@ -41,7 +41,7 @@ Setting a specific password for the admin account
 If you want to use a preset password instead of a random generated one, you can
 set the environment variable `TOMCAT_PASS` to your specific password when running the container:
 
-    docker run -d -p 8080:8080 -e TOMCAT_PASS="mypass" tredence/java_tomcat
+    docker run -d -p 8080:8080 -e TOMCAT_PASS="mypass" tredence/docker-tomcat
 
 You can now test your deployment:
 

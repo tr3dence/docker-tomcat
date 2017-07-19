@@ -1,6 +1,10 @@
 docker-tomcat
 =============
+[![](https://images.microbadger.com/badges/version/tredence/java_tomcat.svg)](https://microbadger.com/images/tredence/java_tomcat "Get your own version badge on microbadger.com")
 
+[![](https://images.microbadger.com/badges/image/tredence/java_tomcat.svg)](https://microbadger.com/images/tredence/java_tomcat "Get your own image badge on microbadger.com")
+
+[![dockeri.co](http://dockeri.co/image/tredence/java_tomcat)](https://registry.hub.docker.com/t/tredence/java_tomcat/)
 
 
 Ubuntu 14.04, Oracle JDK 8 and Tomcat 8 based docker container.
@@ -12,7 +16,7 @@ Includes:
 
  - Oracle JDK 1.8.111
  - Tomcat 8.0.39
- - wget, curl, build-essential, nettools
+ -  wget, curl, build-essential, nettools
 
 USAGE
 ----

@@ -44,8 +44,6 @@ RUN wget -q https://archive.apache.org/dist/tomcat/tomcat-${TOMCAT_MAJOR_VERSION
 ADD create_tomcat_admin_user.sh /create_tomcat_admin_user.sh
 ADD run.sh /run.sh
 RUN chmod +x /*.sh
-#Based on the war file location make changes to the below line
-#COPY ./target/*.war /tomcat/webapps
 
 EXPOSE 8080
 CMD ["/run.sh"]
